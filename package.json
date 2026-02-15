@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@stream-io/node-sdk": "^0.7.40",
+    "@stream-io/video-react-sdk": "^1.32.2",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "stream-chat": "^9.32.0",
+    "stream-chat-react": "^13.13.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
