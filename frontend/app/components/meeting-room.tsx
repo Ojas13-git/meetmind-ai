@@ -9,9 +9,9 @@ import {
   StreamTheme,
 } from "@stream-io/video-react-sdk";
 
-// import { TranscriptPanel } from "@/app/components/transcript";
 
 import "@stream-io/video-react-sdk/dist/css/styles.css";
+import { TranscriptPanel } from "./transcript-panel";
 
 export default function MeetingRoom({ callId, onLeave, userId }) {
   const client = useStreamVideoClient();
@@ -120,7 +120,7 @@ export default function MeetingRoom({ callId, onLeave, userId }) {
               </div>
 
               <div className="bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden shadow-2xl">
-                {/* <TranscriptPanel /> */}
+                <TranscriptPanel />
               </div>
             </div>
           </div>
